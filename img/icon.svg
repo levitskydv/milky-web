@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="462" height="253" viewBox="0 0 462 253">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#CCEFFF" fill-rule="nonzero" d="M461.857 0v91.541l-20.04-24.362H199L202.464 0zM0 99h230.916L234 166.18H17.84L0 190.54z"/>
+        <path stroke="#1050FF" stroke-width="2" d="M199.143 1v66.763h238.243L460 96.286V1H199.143zM233 99.48H1v95.006l19.934-28.242H233V99.48z"/>
+        <text fill="#1050FF" font-family="PTMono-Regular, PT Mono" font-size="16">
+            <tspan x="218.6" y="39">Сколько стоит доставка?</tspan>
+        </text>
+        <text fill="#1050FF" font-family="PTMono-Regular, PT Mono" font-size="16">
+            <tspan x="43.9" y="138">Доставка стоит 5$</tspan>
+        </text>
+        <g stroke="#1050FF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M22.581 252h417.236M451.806 252H459M1 252h7.194"/>
+        </g>
+    </g>
+</svg>
