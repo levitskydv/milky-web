@@ -10,6 +10,14 @@ p {
     flex-direction: column;
 }
 
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
 .advantages {
     padding: 100px 0;
 }
@@ -50,15 +58,113 @@ p {
      
 }
 
-.pricing p {
+.pricing-text {
     text-align: center;
+    margin-bottom: 93px;
+}
+
+.pricing {
+    padding-bottom: 100px;
 }
 
 .pricing h3 {
     font-size: 36px;
-    text-align: center;
     margin-top: 0;
     margin-bottom: 43px;
+}
+
+.pricing-card {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.pricing-card-advantages-container {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-card-advantages-container-second {
+    margin-bottom: 20px;
+}
+
+.pricing-card-advantage {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.pricing-card-advantage:last-child {
+    margin-bottom: 0;
+}
+
+.pricing-card-price {
+    font-size: 62px;
+}
+
+.pricing-card-first {
+    background-image: linear-gradient(to bottom, #13f1fc, #0470dc);
+}
+
+.pricing-card-second {
+    background-image: linear-gradient(to bottom, #c56cd6, #3425af);
+    padding: 85px 0;
+}
+
+.pricing-card-third {
+    background-image: linear-gradient(to bottom, #65799b, #5e2563);
+}
+
+.chatbot {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.chatbot-content {
+    margin-bottom: 76px;
+}
+
+.chatbot h3 {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.chatbot img {
+    width: 100%;
+}
+
+.future {
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.future h3 {
+    font-size: 36px;
+    margin-bottom: 53px;
+}
+
+.future p {
+    margin-bottom: 73px;
+}
+
+.future button {
+    width: 271px;
+    background-color: #de75d5;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    padding: 18px 0;
+}
+
+footer {
+    background-color: #312e3b;
+    padding: 37px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
 }
 
 @media(max-widht: 990px) {
@@ -77,5 +183,8 @@ p {
         font-size: 22px;
          
     }
-}
 
+    .pricing-card {
+        margin-bottom: 25px;
+    }
+}
