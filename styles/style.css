@@ -171,6 +171,11 @@ a:active {
     padding: 18px 0;
 }
 
+.future button:hover {
+    background-color: #5b2d56;
+    color: #fff;
+  }
+
 footer {
     background-color: #312e3b;
     padding: 37px 0;
