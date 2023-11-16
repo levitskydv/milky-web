@@ -169,11 +169,13 @@ a:active {
     border: none;
     font-size: 20px;
     padding: 18px 0;
+    cursor: pointer;
 }
 
 .future button:hover {
     background-color: #5b2d56;
     color: #fff;
+    cursor: pointer;
   }
 
 footer {
