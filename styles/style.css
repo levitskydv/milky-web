@@ -1,0 +1,48 @@
+body {
+    font-family: 'PT Mono', monospace;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.advantages {
+    padding: 100px 0;
+}
+
+.advantages h3 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, #225df4, #0e2153);
+    color: #fff;
+}
+
+.intro h1 {
+    font-size: 82px;
+     
+}
+
+.intro h2 {
+    font-size: 42px;
+     
+}
+
+@media(max-width: 768px) {
+    .intro h1 {
+        font-size: 42px;
+         
+    }
+
+    .intro h2 {
+        font-size: 22px;
+         
+    }
+}
+

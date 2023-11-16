@@ -1,3 +1,3 @@
-# MilkyWeb CRM 
+# Milky Web CRM 
 
 Landing Page of Handy Customer Relationship Management system as freelance project.
