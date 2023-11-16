@@ -10,6 +10,14 @@ a {
     color: #0470dc;
 }
 
+a:visited {
+    color: #3425af;
+}
+
+a:active {
+    color: #0470dc;
+}
+
 .column {
     flex-direction: column;
 }
